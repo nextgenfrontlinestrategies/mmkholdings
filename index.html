@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to LLC NovaTech - Your Partner in Social Media Success">
+    <meta name="author" content="LLC NovaTech">
+    <title>Home | MMK Holdings</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3" style="background-image: url('images/nhn-lNIUfxnJ1xE-unsplash.jpg'); background-size: cover; background-position: center;">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <div>
+                <a href="index.html" class="navbar-brand text-white d-flex align-items-center">
+                    <img src="images/mmk logo.png" alt="MMK Holdings Logo" style="height: 30px; width: 30px; margin-right: 10px;">
+                    <span style="font-family: 'Times New Roman', serif; font-weight: 600; font-size: 1.4rem; letter-spacing: 1.5px; color: #ffffffd9; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);">
+                        MMK NovaTech
+                    </span>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav flex-column flex-md-row">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white text-uppercase position-relative active">
+                            Home
+                            <span class="active-indicator">
+                                <span></span><span></span><span></span><span></span><span></span>
+                                <span></span><span></span><span></span><span></span><span></span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html" class="nav-link text-white text-uppercase position-relative active">
+                            About
+                            <span class="active-indicator"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Services.html" class="nav-link text-white text-uppercase position-relative">
+                            Services
+                            <span class="active-indicator"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link text-white text-uppercase position-relative">
+                            FRDY
+                            <span class="active-indicator"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link text-white text-uppercase position-relative">
+                            Contact
+                            <span class="active-indicator"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Bot Suite.html" class="nav-link text-white text-uppercase position-relative">
+                            Bot Suite
+                            <span class="active-indicator"></span>
+                        </a>
+                    </li>
+                </ul>
+                <style>
+                    @media (max-width: 767.98px) {
+                        .container.d-flex {
+                            flex-direction: column !important;
+                            align-items: flex-start !important;
+                        }
+                        nav ul.nav {
+                            flex-direction: column !important;
+                            width: 100%;
+                        }
+                        nav ul.nav .nav-item {
+                            width: 100%;
+                        }
+                        nav ul.nav .nav-link {
+                            padding-left: 0.5rem;
+                            padding-right: 0.5rem;
+                            text-align: left;
+                        }
+                    }
+                    .nav-link {
+                        position: relative;
+                        padding-bottom: 10px;
+                        overflow: hidden;
+                    }
+                    .active-indicator {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        display: flex;
+                        gap: 6px;
+                        height: 6px;
+                        width: 100%;
+                    }
+                    .active-indicator span {
+                        width: 6px;
+                        height: 6px;
+                        background-color: #ff7e00;
+                        border-radius: 50%;
+                        opacity: 0;
+                        animation: dot-fill 1.5s infinite;
+                    }
+                    .nav-link .active-indicator span:nth-child(1),
+                    .nav-link .active-indicator span:nth-child(2),
+                    .nav-link .active-indicator span:nth-child(9),
+                    .nav-link .active-indicator span:nth-child(10) {
+                        background-color: transparent;
+                        pointer-events: none;
+                    }
+                    .active .active-indicator span:nth-child(1) { animation-delay: 0s; }
+                    .active .active-indicator span:nth-child(2) { animation-delay: 0.15s; }
+                    .active .active-indicator span:nth-child(3) { animation-delay: 0.3s; }
+                    .active .active-indicator span:nth-child(4) { animation-delay: 0.45s; }
+                    .active .active-indicator span:nth-child(5) { animation-delay: 0.6s; }
+                    .active .active-indicator span:nth-child(6) { animation-delay: 0.75s; }
+                    .active .active-indicator span:nth-child(7) { animation-delay: 0.9s; }
+                    .active .active-indicator span:nth-child(8) { animation-delay: 1.05s; }
+                    .active .active-indicator span:nth-child(9) { animation-delay: 1.2s; }
+                    .active .active-indicator span:nth-child(10) { animation-delay: 1.35s; }
+                    @keyframes dot-fill {
+                        0%, 100% {
+                            opacity: 0;
+                            transform: scale(0.5);
+                        }
+                        50% {
+                            opacity: 1;
+                            transform: scale(1);
+                        }
+                    }
+                    .text-uppercase {
+                        text-transform: uppercase;
+                    }
+                </style>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero bg-dark text-white text-center py-10 position-relative" style="height: 100vh; background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/sigmund-Fa9b57hffnM-unsplash.jpg'); background-size: cover; background-position: center;">
+        <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+            <h1 class="display-1 fw-bold text-glow" style="font-family: 'Roboto', sans-serif; font-size: 5rem; letter-spacing: 2px; color: #00FFFF; text-shadow: 0px 0px 20px rgba(0, 255, 255, 0.8);">MMK NovaTech</h1>
+            <p class="lead" style="font-family: 'Open Sans', sans-serif; font-size: 1.8rem; color: #ffffffd9; margin-bottom: 1.5rem;">The Core Logic of Intelligent Power</p>
+            <p class="mb-4" style="font-family: 'Arial', sans-serif; font-size: 1.2rem; line-height: 1.8; max-width: 800px; color: #ffffffb3;">We engineer the future. From AI-infused systems to next-gen software solutions, we merge innovation with execution to build what others only imagine. This is full-stack dominance. Join us and build the world of tomorrow.</p>
+            <div class="d-flex justify-content-center mt-4 flex-wrap">
+                <a href="https://calendly.com/llcnovatecc/30min" class="btn btn-outline-light btn-lg shadow-lg mx-2 mb-2" target="_blank" style="font-family: 'Poppins', sans-serif; font-size: 1.2rem; padding: 0.8rem 2rem; border-radius: 50px; transition: all 0.3s ease;">Book a Call</a>
+                <a href="#services" class="btn btn-primary btn-lg shadow-lg mx-2 mb-2" style="font-family: 'Poppins', sans-serif; font-size: 1.2rem; padding: 0.8rem 2rem; border-radius: 50px; background-color: #ff7e00; border: none; transition: all 0.3s ease;">Explore Services</a>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 767.98px) {
+                .hero {
+                    height: auto !important;
+                    padding-top: 3rem !important;
+                    padding-bottom: 3rem !important;
+                }
+                .display-1 {
+                    font-size: 2.5rem !important;
+                }
+                .lead {
+                    font-size: 1.1rem !important;
+                }
+                .mb-4 {
+                    font-size: 1rem !important;
+                }
+            }
+            .text-glow {
+                animation: glow 2s infinite alternate;
+            }
+            @keyframes glow {
+                0% {
+                    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5), 0px 0px 20px rgba(0, 255, 255, 0.4);
+                }
+                100% {
+                    text-shadow: 0px 0px 20px rgba(0, 255, 255, 0.8), 0px 0px 30px rgba(0, 255, 255, 0.6);
+                }
+            }
+            .btn:hover {
+                transform: scale(1.1);
+                box-shadow: 0px 6px 20px rgba(255, 140, 0, 0.5);
+            }
+        </style>
+    </section>
+
+    <section id="services" class="services bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 700; color: #1A1A1A; text-transform: uppercase; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); letter-spacing: 2px; line-height: 1.4;">Our Premier Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4 col-12">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-img-container position-relative">
+                            <img src="images/luke-chesser-JKUTrJ4vK00-unsplash.jpg" class="card-img-top rounded-top" alt="AI Analytics">
+                            <div class="overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center" style="background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.3s;">
+                                <p class="text-white text-center px-3" style="font-family: 'Open Sans', sans-serif; font-size: 1rem;">Exceptional targeting, automated scalability, and real-time ad performance on every major platform.</p>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="font-family: 'Poppins', sans-serif; font-size: 1.5rem; color: #1A1A1A;">AI-Powered Ad Optimization</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-img-container position-relative">
+                            <img src="images 2/christina-wocintechchat-com-bPVM4nOy0Rg-unsplash.jpg" class="card-img-top rounded-top" alt="Creative Content">
+                            <div class="overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center" style="background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacit</div>y 0.3s;">
+                                <p class="text-white text-center px-3" style="font-family: 'Open Sans', sans-serif; font-size: 1rem;">Scalable, smart systems built to dominate markets and solve real problems with clean UX/UI.</p>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="font-family: 'Poppins', sans-serif; font-size: 1.5rem; color: #1A1A1A;">Software & SaaS Development</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card border-0 shadow-lg h-100">
+                        <div class="card-img-container position-relative">
+                            <img src="images 2/safar-safarov-LKsHwgzyk7c-unsplash.jpg" class="card-img-top rounded-top" alt="Automation">
+                            <div class="overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center" style="background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacit</div>y 0.3s;">
+                                <p class="text-white text-center px-3" style="font-family: 'Open Sans', sans-serif; font-size: 1rem;">High-performing portals and websites with a focus on conversion, speed, and an enhanced user experience.</p>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="font-family: 'Poppins', sans-serif; font-size: 1.5rem; color: #1A1A1A;">Full-Stack Web Solutions</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 767.98px) {
+                #services .row > div {
+                    margin-bottom: 2rem;
+                }
+                #services .card-img-top {
+                    height: 200px;
+                    object-fit: cover;
+                }
+            }
+            .card-img-container {
+                overflow: hidden;
+                border-radius: 10px 10px 0 0;
+            }
+            .card-img-container:hover .overlay {
+                opacity: 1;
+            }
+            .card:hover {
+                transform: translateY(-10px);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            }
+        </style>
+    </section>
+    <section id="who-we-work-with" class="py-5 bg-light position-relative" style="background-image: url('images 2/mohammad-rahmani-d3Ysz1ziusM-unsplash.jpg'); background-size: cover; background-position: center;">
+        <div class="container position-relative" style="z-index: 1;">
+            <h2 class="text-center mb-4" style="font-family: 'Roboto', sans-serif; font-size: 2.8rem; font-weight: 600; color: #CCC; text-transform: uppercase; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); letter-spacing: 1.5px; line-height: 1.3;">Who We Work With</h2>
+            <p class="text-center mb-5" style="font-family: 'Open Sans', sans-serif; font-size: 1.2rem; color: #ffffff;">
+                At MMK NovaTech, we partner with ambitious brands, bold startups, and elite organizations that are serious about setting their new standard. If you're building the future, we're the team that helps you scale it.
+            </p>
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4">
+                    <i class="fas fa-industry fa-3x" style="color: #0d6efd; margin-bottom: 1rem;"></i>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-size: 1.2rem; color: #ffffff;">Manufacturing</h5>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <i class="fas fa-briefcase fa-3x text-primary mb-3"></i>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-size: 1.2rem; color: #ffffff;">Startups</h5>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <i class="fas fa-graduation-cap fa-3x text-primary mb-3"></i>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-size: 1.2rem; color: #ffffff;">Education</h5>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <i class="fas fa-heartbeat fa-3x text-primary mb-3"></i>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-size: 1.2rem; color: #ffffff;">Healthcare</h5>
+                </div>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 767.98px) {
+                #who-we-work-with .row > div {
+                    margin-bottom: 2rem;
+                }
+                #who-we-work-with .row {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+    </section>
+
+    <section id="why-llc-novatech" class="py-5 text-white" style="background-image: linear-gradient(#001128, #002228), url('images/why-llc-bg.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h2 class="text-center mb-4" style="font-family: 'Roboto', sans-serif; font-size: 2.8rem; font-weight: 600; color: #ccc; text-transform: uppercase; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); letter-spacing: 1.5px; line-height: 1.3;">Why MMK NovaTech?</h2>
+            <p class="text-center mb-5" style="font-family: 'Open Sans', sans-serif; font-size: 1.2rem; color: #DDD;">
+                Learn why businesses trust MMK NovaTech to drive change and innovation.
+            </p>
+            <div class="row">
+                <div class="col-md-4 col-12 text-center mb-4">
+                    <i class="fas fa-lightbulb fa-3x" style="color: #ff7e00; margin-bottom: 1rem;"></i>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-size: 1.2rem;">Innovative Solutions</h5>
+                    <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; color: #CCC;">
+                        We provide advanced technology designed specifically for your needs.
+                    </p>
+                </div>
+                <div class="col-md-4 col-12 text-center mb-4">
+                    <i class="fas fa-users fa-3x" style="color: #ff7e00; margin-bottom: 1rem;"></i>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-size: 1.2rem;">Expert Team</h5>
+                    <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; color: #CCC;">
+                        Our specialists deliver exceptional service and support, always.
+                    </p>
+                </div>
+                <div class="col-md-4 col-12 text-center mb-4">
+                    <i class="fas fa-chart-line fa-3x" style="color: #ff7e00; margin-bottom: 1rem;"></i>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-size: 1.2rem;">Proven Results</h5>
+                    <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; color: #CCC;">
+                        We help businesses achieve measurable growth and success.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 767.98px) {
+                #why-llc-novatech .row > div {
+                    margin-bottom: 2rem;
+                }
+            }
+        </style>
+    </section>
+
+    <footer class="text-white py-3" style="background-color: #1A1A1A;">
+        <div class="container text-center">
+            <p>&copy; 2025 MMK Holdings. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=61575846665343" class="text-white"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/mmkholdings/?__pwa=1" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/company/llc-novatech/" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

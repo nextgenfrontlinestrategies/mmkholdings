@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about LLC NovaTech - Your Partner in Social Media Success">
+    <meta name="author" content="LLC NovaTech">
+    <title>About Us | MMK Holdings</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3" style="background-image: url('images/nhn-lNIUfxnJ1xE-unsplash.jpg'); background-size: cover; background-position: center;">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap"></div>
+            <div>
+                <a href="index.html" class="navbar-brand text-white d-flex align-items-center">
+                    <img src="images/mmk logo.png" alt="MMK Holdings Logo" style="height: 30px; width: 30px; margin-right: 10px;">
+                    <span style="font-family: 'Times New Roman', serif; font-weight: 600; font-size: 1.4rem; letter-spacing: 1.5px; color: #ffffffd9; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);">
+                        MMK NovaTech
+                    </span>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav flex-wrap justify-content-center">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white text-uppercase position-relative">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html" class="nav-link text-white text-uppercase position-relative active">
+                            About
+                            <span class="active-indicator">
+                                <span></span><span></span><span></span><span></span><span></span>
+                                <span></span><span></span><span></span><span></span><span></span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Services.html" class="nav-link text-white text-uppercase position-relative">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link text-white text-uppercase position-relative">
+                            FRDY
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link text-white text-uppercase position-relative">
+                            Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Bot Suite.html" class="nav-link text-white text-uppercase position-relative">
+                            Bot Suite
+                        </a>
+                    </li>
+                </ul>
+                <style>
+                    .nav-link {
+                        position: relative;
+                        padding-bottom: 10px;
+                        overflow: hidden;
+                    }
+                    .active-indicator {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        display: flex;
+                        gap: 6px;
+                        height: 6px;
+                        width: 100%;
+                    }
+                    .active-indicator span {
+                        width: 6px;
+                        height: 6px;
+                        background-color: #ff7e00;
+                        border-radius: 50%;
+                        opacity: 0;
+                        animation: dot-fill 1.5s infinite;
+                    }
+                    .nav-link .active-indicator span:nth-child(1),
+                    .nav-link .active-indicator span:nth-child(2),
+                    .nav-link .active-indicator span:nth-child(9),
+                    .nav-link .active-indicator span:nth-child(10) {
+                        background-color: transparent;
+                        pointer-events: none;
+                    }
+                    .active .active-indicator span:nth-child(1) { animation-delay: 0s; }
+                    .active .active-indicator span:nth-child(2) { animation-delay: 0.15s; }
+                    .active .active-indicator span:nth-child(3) { animation-delay: 0.3s; }
+                    .active .active-indicator span:nth-child(4) { animation-delay: 0.45s; }
+                    .active .active-indicator span:nth-child(5) { animation-delay: 0.6s; }
+                    .active .active-indicator span:nth-child(6) { animation-delay: 0.75s; }
+                    .active .active-indicator span:nth-child(7) { animation-delay: 0.9s; }
+                    .active .active-indicator span:nth-child(8) { animation-delay: 1.05s; }
+                    .active .active-indicator span:nth-child(9) { animation-delay: 1.2s; }
+                    .active .active-indicator span:nth-child(10) { animation-delay: 1.35s; }
+                    @keyframes dot-fill {
+                        0%, 100% {
+                            opacity: 0;
+                            transform: scale(0.5);
+                        }
+                        50% {
+                            opacity: 1;
+                            transform: scale(1);
+                        }
+                    }
+                    .text-uppercase {
+                        text-transform: uppercase;
+                    }
+                    @media (max-width: 767px) {
+                        .container.d-flex {
+                            flex-direction: column !important;
+                            align-items: flex-start !important;
+                        }
+                        nav ul.nav {
+                            flex-direction: column !important;
+                            width: 100%;
+                        }
+                        nav ul.nav .nav-item {
+                            margin-bottom: 8px;
+                        }
+                        .navbar-brand span {
+                            font-size: 1.1rem !important;
+                        }
+                    }
+                </style>
+            </nav>
+        </div>
+    </header>
+<main class="container my-5">
+    <section class="text-center">
+        <h1 class="mb-4" style="font-family: 'Poppins', sans-serif; font-weight: 800; color: #001128; font-size: 3rem; text-transform: uppercase; letter-spacing: 2px;">
+            About MMK NovaTech
+        </h1>
+        <div class="about-intro mx-auto" style="max-width: 900px;">
+            <p style="font-family: 'Roboto', sans-serif; font-size: 1.1rem; line-height: 1.8; color: #001128; margin-bottom: 1.5rem;">
+                <span style="font-weight: bold; color: #001128;">MMK NovaTech (Pty) Ltd</span> isn’t just a business name, it’s a declaration of vision. While “MMK” might mean many things to others, for us, it stands for <span style="font-weight: bold; color: #001128;">Masterminds Making Knowledge</span>, and that’s exactly who we are.
+            </p>
+            <p style="font-family: 'Roboto', sans-serif; font-size: 1.1rem; line-height: 1.8; color: #001128; margin-bottom: 1.5rem;">
+                Founded in South Africa with a global vision, we exist to set a higher standard in technology. We build precise, reliable systems that help ambitious businesses lead, not follow.
+            </p>
+            <div class="my-4 py-3 px-4 rounded" style="background: #f4f8fb; border-left: 4px solid #ff7e00;">
+                <span style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #001128; font-size: 1.15rem;">
+                    WE ARE NOT JUST ANOTHER TECH FIRM.
+                    WE ARE MASTERMINDS MAKING KNOWLEDGE.
+                </span>
+                <div class="image-container my-4">
+                    <img src="images/alex-hudson-7AgqAZbogOQ-unsplash.jpg" alt="Leaders in Logic & Code">
+                </div>
+            </div>
+            <p style="font-family: 'Roboto', sans-serif; font-size: 1.1rem; line-height: 1.8; color: #001128; margin-bottom: 1.5rem;">
+                MMK NovaTech builds smart, powerful software that helps businesses grow. From fast, reliable websites to AI tools that boost ads, we create systems that look great, work better, and scale with you.
+            </p>
+        </div>
+    </section>
+    <section class="mt-5 text-center">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #001128; font-size: 2.5rem; text-transform: uppercase;">
+            Our Mission
+        </h2>
+        <p style="font-family: 'Roboto', sans-serif; font-size: 1.1rem; line-height: 1.8; color: #001128; max-width: 850px; margin: 0 auto;">
+            Our mission is to create new technology solutions that facilitate business growth, run smoothly, and prepare for the future. We integrate automation and full-stack development to develop intelligent, reliable systems that foster growth and automate operations. We aim to create meaningful, high-impact problem-solving that has real-world impact and creates long-term value and positions businesses for success in a rapidly changing digital economy.
+        </p>
+    </section>
+    <section class="mt-5 text-center">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #001128; font-size: 2.5rem; text-transform: uppercase;">
+            Our Vision
+        </h2>
+        <div class="image-container my-4">
+            <img src="images/joshua-hoehne-49NzoqjDR2c-unsplash.jpg" alt="Our Vision">
+        </div>
+        <p style="font-family: 'Roboto', sans-serif; font-size: 1.1rem; line-height: 1.8; color: #001128; max-width: 850px; margin: 0 auto;">
+            To be the leading force in technology, providing revolutionary solutions that drive businesses to excel and thrive amidst a constantly changing digital world.
+        </p>
+    </section>
+    <section class="mt-5 text-center">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #001128; font-size: 2.5rem; text-transform: uppercase;">
+            The NovaTech Story
+        </h2>
+        <div class="image-container my-4">
+            <img src="images 2/gerold-hinzen-cZDx92_E1z4-unsplash.jpg" alt="The NovaTech Story">
+        </div>
+        <p style="font-family: 'Roboto', sans-serif; font-size: 1.1rem; line-height: 1.8; color: #001128; max-width: 850px; margin: 0 auto;">
+            Founded in 2025, MMK NovaTech was created to solve a simple problem: businesses need technology that works seamlessly and adapts as they grow. We saw an opportunity to provide reliable, scalable solutions that help companies navigate the complexities of today’s digital world. Whether it’s through full-stack development, or smart automation, we focus on delivering tools that simplify operations and drive real results. Our mission is straightforward, to provide businesses with the technology they need to stay ahead and succeed, now and in the future.
+        </p>
+    </section>
+    <section class="mt-5 text-center">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #001128; font-size: 2.5rem; text-transform: uppercase;">
+            Testimonials
+        </h2>
+        <div class="row mt-4">
+            <div class="col-md-4 col-12 mb-4">
+                <div class="p-4 shadow-lg rounded position-relative" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef); border: 1px solid #ddd; overflow: hidden;">
+                    <div class="quote-icon" style="position: absolute; top: -20px; left: -20px; font-size: 4rem; color: rgba(0, 0, 0, 0.1);">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p style="font-family: 'Roboto', sans-serif; font-size: 1rem; color: #001128; z-index: 1; position: relative;">
+                        "Working with MMK NovaTech was honestly smooth from start to finish. The system they built helped us reduce manual tasks and improved our workflow big time. Siyabonga for the professionalism, you’ve earned a long-term client."
+                    </p>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #001128; z-index: 1; position: relative;">- Lerato M.</h5>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mb-4">
+                <div class="p-4 shadow-lg rounded position-relative" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef); border: 1px solid #ddd; overflow: hidden;">
+                    <div class="quote-icon" style="position: absolute; top: -20px; left: -20px; font-size: 4rem; color: rgba(0, 0, 0, 0.1);">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p style="font-family: 'Roboto', sans-serif; font-size: 1rem; color: #001128; z-index: 1; position: relative;">
+                        "These guys know what they’re doing. From day one, they were on point, no empty promises. They revamped our platform, gave us clean backend systems, and stayed sharp with communication. Re leboga ruri."
+                    </p>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #001128; z-index: 1; position: relative;">- Thabo N.</h5>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mb-4">
+                <div class="p-4 shadow-lg rounded position-relative" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef); border: 1px solid #ddd; overflow: hidden;">
+                    <div class="quote-icon" style="position: absolute; top: -20px; left: -20px; font-size: 4rem; color: rgba(0, 0, 0, 0.1);">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p style="font-family: 'Roboto', sans-serif; font-size: 1rem; color: #001128; z-index: 1; position: relative;">
+                        "We’ve worked with a few tech firms, but MMK NovaTech actually listened. They didn’t just code and leave, they supported us, explained everything in plain terms, and made sure we were sorted even after launch. Baie dankie!"
+                    </p>
+                    <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #001128; z-index: 1; position: relative;">- Anna P.</h5>
+                </div>
+            </div>
+        </div>
+        <style>
+            .quote-icon {
+                transform: rotate(-15deg);
+            }
+            .p-4:hover {
+                transform: scale(1.05);
+                transition: transform 0.3s ease-in-out;
+            }
+            @media (max-width: 767px) {
+                .row.mt-4 {
+                    flex-direction: column !important;
+                }
+                .col-md-4 {
+                    max-width: 100% !important;
+                    flex: 0 0 100% !important;
+                }
+            }
+        </style>
+    </section>
+    <section class="container my-5">
+        <div class="about-highlight my-4 py-4 px-4 rounded shadow-sm text-center" style="background: linear-gradient(90deg, #e0f7fa 0%, #f4f8fb 100%); border-left: 5px solid #ff7e00;">
+            <i class="fas fa-globe-africa mb-3 d-block mx-auto" style="font-size: 2rem; color: #ff7e00;"></i>
+            <p style="font-family: 'Roboto', sans-serif; font-size: 1.15rem; line-height: 1.8; color: #001128; margin-bottom: 0; font-weight: 500;">
+                We operate legally under <span style="font-weight: bold; color: #001128;">MMK Holdings (Pty) Ltd</span>, registered in South Africa, but our solutions are <span style="color: #001128; font-weight: 600;">borderless</span>.<br>
+                <span style="color: #001128;">Whether you’re in Johannesburg, New York, or Dubai, we build tech that speaks the universal language of <span style="font-weight: bold; color: #001128;">results</span>.</span>
+            </p>
+        </div>
+    </section>
+</main>
+<style>
+    .image-container {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background-color: #eaeaea;
+    }
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    @media (max-width: 767px) {
+        .image-container {
+            height: 140px;
+        }
+        h1 {
+            font-size: 2rem !important;
+        }
+        h2 {
+            font-size: 1.4rem !important;
+        }
+        .about-intro,
+        p,
+        .about-highlight p {
+            font-size: 1rem !important;
+        }
+        main.container {
+            padding-left: 8px !important;
+            padding-right: 8px !important;
+        }
+    }
+</style>
+<footer class="bg-blue text-white py-3" style="background-color: #1A1A1A;">
+    <div class="container text-center">
+        <p>&copy; 2025 MMK Holdings. All Rights Reserved.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=61575846665343" class="text-white"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/mmkholdings/?__pwa=1" class="text-white"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/company/llc-novatech/" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+</footer>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
